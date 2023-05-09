@@ -37,6 +37,7 @@ void loop()
     elevator.writeMicroseconds(1000);
     elevator.detach();
   }
+  /*
   if(millis()-elapsedTime > timeout)
   {
     elevator.attach(pinServo);
@@ -47,4 +48,5 @@ void loop()
 
     elapsedTime = millis();
   }
+  */
 }
